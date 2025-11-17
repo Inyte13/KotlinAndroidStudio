@@ -1,0 +1,89 @@
+### IntelliJ IDEA ###
+.idea/
+out/
+*.ipr
+*.iws
+
+# Archivos de configuración de usuario
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/**/usage.statistics.xml
+.idea/**/assetWizardSettings.xml
+
+# Archivos de compilación
+*.class
+*.log
+
+### Android / Android Studio ###
+# Carpetas de build
+**/build/
+**/captures/
+**/.cxx/
+
+# Configuración de Gradle
+.gradle/
+gradle-app.setting
+
+# Archivos locales de configuración del SDK
+local.properties
+
+# Archivos de dispositivos o simuladores
+*.iml
+
+# Navegación / cache del IDE
+.navigation/
+.idea/navEditor.xml
+
+# Cache de build
+**/generated/
+
+# Configuración de firma (no subir claves)
+*.jks
+*.keystore
+signing.properties
+
+### Kotlin ###
+*.kotlin_module
+
+### Node.js ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+### Python ###
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.python-version
+.venv/
+env/
+venv/
+ENV/
+Pipfile.lock
+poetry.lock
+
+### General ###
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+### VSCode ###
+.vscode/
+.history/
+
+### Coverage / Testing ###
+coverage/
+.nyc_output/
+.pytest_cache/
+.cache/
