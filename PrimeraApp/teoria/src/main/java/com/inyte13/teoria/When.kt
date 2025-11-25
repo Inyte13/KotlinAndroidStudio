@@ -27,7 +27,7 @@ fun getTrimestre(mes:Int):String{
 }
 
 fun getSemestre(mes:Int):String{
-  return when(mes){
+  return when(mes) {
     in 1..6->"Primer Semestre"
     in 7..12->"Segundo Semestre"
     else -> "No es un mes válido"
